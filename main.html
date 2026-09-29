@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-section">
+        <h1>John Doe</h1>
+        <p class="position">Senior Web Developer & UI/UX Specialist</p>
+        
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-body">
+        <section id="intro" class="section">
+            <h2 class="section-title">Introduction</h2>
+            <p class="justified-text">
+                Welcome to my portfolio! I am a passionate developer with a strong focus on building responsive, elegant, and user-friendly web applications. Over the years, I have honed my craft in creating seamless digital experiences that solve real-world problems. I thrive in dynamic environments and am always eager to learn cutting-edge technologies to deliver top-notch solutions.
+            </p>
+        </section>
+        <section class="image-section">
+            <div class="image-container">
+                <img src="https://es.web.img2.acsta.net/img/c3/fb/c3fb12ec6fb23e47a2d49f5db19c5d88.jpg" alt="Profile Picture"width="300">
+                <p class="image-caption">Figure 1.0: Working tirelessly on CSS layouts.</p>
+            </div>
+        </section>
+        <section id="experience" class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li class="exp-item light">Lead Frontend Developer at TechCorp (2024 - Present)</li>
+                <li class="exp-item bold">UI Designer at CreativeStudio (2022 - 2024)</li>
+                <li class="exp-item light">Junior Web Developer at CodeFactory (2021 - 2022)</li>
+                <li class="exp-item bold">Web Development Intern at StartUp Hub (2020 - 2021)</li>
+            </ul>
+        </section>
+        <section id="skills" class="section">
+            <h2>Skills</h2>
+            <table class="skills-table">
+                <thead>
+                    <tr>
+                        <th>Skill Category</th>
+                        <th>Technologies</th>
+                        <th>Proficiency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Frontend</td>
+                        <td>HTML5, CSS3, JavaScript, React</td>
+                        <td>Expert</td>
+                    </tr>
+                    <tr>
+                        <td>Backend</td>
+                        <td>Node.js, Express, Python</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>Tools & Others</td>
+                        <td>Git, GitHub, Responsive Design</td>
+                        <td>Advanced</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>E-Commerce Dashboard</h3>
+                    <p>A fully responsive admin dashboard built with modern CSS grid and flexbox.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Website</h3>
+                    <p>A sleek developer portfolio showcasing CSS styling and interactive components.</p>
+                </div>
+            </div>
+        </section>
+        <section id="video" class="section">
+            <h2>Featured Video</h2>
+            <div class="video-container">
+                <iframe width="560"
+                height="315"
+                src="https://www.youtube.com/embed/5dlrOosqSb8" title="YouTube video player" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <h2>Get in Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="role">Role:</label>
+                    <input type="text" id="role" name="role" placeholder="e.g. Recruiter, Manager" required>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>
